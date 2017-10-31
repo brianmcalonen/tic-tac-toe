@@ -1,0 +1,79 @@
+body {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 54px;
+  text-align: center;
+  color: red;
+  margin-top: -20px;
+}
+
+#gameboard {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.row {
+  clear: both;
+}
+
+.square {
+  width:119px;
+  height:119px;
+  background: grey;
+  float: left;
+  cursor: pointer;
+}
+
+.ex {
+  background-image: url("rsz_ghost.jpg");
+}
+
+.oh {
+  background-image: url("rsz_pumpkin.jpg");
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.right {
+  border-right: 1px solid black;
+}
+
+#reset {
+  font-size: 16px;
+  border: 0;
+  background: #666;
+  color: white;
+  width: 40%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.scoreBoard {
+  font-size: 16px;
+  margin: 0 auto;
+  border: 0;
+  background: #666;
+  color: white;
+  width: 40%;
+  padding: 15px;
+  margin-top: 150px;
+  border-radius: 5px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding-top: 16px;
+}
